@@ -11,9 +11,12 @@ h2  {
 .left {
   width: 50%;
   display: inline-block;
+  margin-left: 50px;
+  margin-top: 100px;
 }
 
 .right {
+  margin-left:
   width: 50%;
   display: inline-block;
 }
