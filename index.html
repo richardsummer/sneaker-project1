@@ -4,34 +4,86 @@
     <meta charset="utf-8">
     <title>Sneaker Project</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- A constant work in progress -->
    <section class="container-1">
-      <img src="images/day-1-logo.jpg" alt="Red outline of shoe" style="width:100px">
-      <div class="nav">
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Boys</a>
-        <a href="#">Girls</a>
-        <a href="#">Customize</a>
-      </div>
-      <div class="options">
-        <a href="#">Help<a/>
-        <a href="#">My Account<a/>
-        <a href="#">Shopping Cart<a/>
-      </div>
+     <div class="nav-1">
+       <img class="logo" src="images/day-1-logo.jpg" alt="Red outline of shoe" style="width:50px">
+       <a href="#">MEN</a>
+       <a href="#">WOMEN</a>
+       <a href="#">BOYS</a>
+       <a href="#">GIRLS</a>
+       <a href="#">CUSTOMIZE</a>
+     </div>
+     <div class="nav-2">
+       <a href="#">Help<a/>
+       <a href="#">My Account<a/>
+       <a href="#"><img src="images/day-1-cart.jpg" style="width:20px;">Shopping Cart<a/>
+     </div>
    </section>
    <section class="container-2">
     <div class="box-1">
-      <a href="#">BACK TO ALL SHOES</a>
-      <img src="images/day-1-shoe1.png" alt="black and white shoe" style="width:200px; height:200px">
+      <a class="back-to-all-shoes" href="#">&#8592;BACK TO ALL SHOES</a>
+      <img class="big-shoe" src="images/day-1-shoe1.png" alt="black and white shoe" style="width:500px;">
     </div>
     <div class="box-2">
-
+      <h1 class="quick-sneakers">Quick Sneakers</h1>
+      <h2 class="spring-summer">SPRING/SUMMER 2017</h2>
+      <p class="qs-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <a href="#" class="read-the-reviews">Read The Reviews</a>
+      <div class="price">$120.00</div>
+      <a href="#" class="buy-now">BUY NOW!</a>
     </div>
    </section>
    <section class="container-3">
+    <div id="Product Details" class="tab">
+      <h2>Only the best materials</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <h3>Built to make a statement</h3>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+    </div>
+    <div id="Size & Fit" class="tab" style="display:none">
+      <h2>How do our shoes feel?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button" onclick="openTab('Product Details')">Product Details</button>
+      <button class="w3-bar-item w3-button" onclick="openTab('Size & Fit')">Size & Fit</button>
+    </div>
+   </section>
+   <section class="container-4">
+      <div class="box-3">
+       <img class="shoe1" src="images/day-1-shoe2.png" alt="">
+       <span class="sneakers">Funny Sneakers $120.00</span>
+       <h2 class="spring-summer2">SPRING/SUMMER 2017</h2>
+      </div>
+      <div class="box-4">
+       <img class="shoe2" src="images/day-1-shoe3.png" alt="">
+       <span class="sneakers">Nimble Sneakers $120.00</span>
+       <h2 class="spring-summer2">SPRING/SUMMER 2017</h2>
+     </div>
+      <div class="box-5">
+       <img class="shoe3" src="images/day-1-shoe4.png" alt="">
+       <span class="sneakers">Cute Sneakers $120.00</span>
+       <h2 class="spring-summer2">SPRING/SUMMER 2017</h2>
+      </div>
+   </section>
+   <section class="container-5">
+     <div class="nav-1">
+       <img class="logo" src="images/day-1-logo.jpg" alt="Red outline of shoe" style="width:50px">
+       <a href="#">MEN</a>
+       <a href="#">WOMEN</a>
+       <a href="#">BOYS</a>
+       <a href="#">GIRLS</a>
+       <a href="#">CUSTOMIZE</a>
+     </div>
+     <div class="nav-2">
+       <a href="#">Shipping<a/>
+       <a href="#">Terms & Conditions<a/>
+       <a href="#">&#169;Copyright 2017. Sneaker Shop, LLC.<a/>
+     </div>
    </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
