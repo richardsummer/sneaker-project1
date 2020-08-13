@@ -87,15 +87,15 @@ a {
   font-size: 25px;
 }
 
-.buy-now{
-  background-color: white;
+/* #buyBtn{ */
+  /* background-color: white;
   border-radius: 8px;
   color: #973430;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
   font-size: 12px;
-}
+} */
 
 .container-3{
   display: flex;

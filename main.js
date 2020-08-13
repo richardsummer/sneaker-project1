@@ -1,8 +1,12 @@
-function openTab(tabName) {
-  var i;
-  var x = document.getElementsByClassName("tab");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  document.getElementById(tabName).style.display = "block";
+window.onload = function =() {
+document.getElementById('buyBtn').onclick = function changeContent() {
+   var myBtn = document.getElementById('buyBtn')
+   myBtn.style.backgroundColor = "rgba(255, 255, 255, 0)";
+   myBtn.style.color = "white";
+   myBtn.innerHTML = "white 2px solid";
+   myBtn.innerHTML = "Added To Cart";
+
+   var cart = document.getElementById('cart')
+   cart.innerHTML = 0 + 1;
+}
 }
